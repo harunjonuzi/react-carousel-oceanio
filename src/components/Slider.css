@@ -1,0 +1,63 @@
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  max-width: 1200px;
+  object-fit: cover;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+.slider .image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider .pagination {
+  max-width: 920px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  gap: 2px;
+}
+
+.slider .pagination .rect {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background: #6e7986;
+  margin-top: 35px;
+  border: 0 none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* add some space on top and bottom of the pagination button, so it can be clicked easier */
+.slider .pagination .rect::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 16px;
+  top: -6px;
+  left: 0;
+}
+
+.slider .pagination .rect.active,
+.slider .pagination .rect:hover {
+  background: #ffffff;
+}

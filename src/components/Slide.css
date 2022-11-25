@@ -1,0 +1,42 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.slide h2 {
+  font-size: 40px;
+  margin: 50px 0;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
+}
+
+.slide h2 mark {
+  color: #ff88ad;
+  background: none;
+}
+
+.slide .sign {
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.slide .sign span {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.theme-cyan.slide .quote-icon path {
+  stroke: #88ffed;
+}
+
+.theme-cyan.slide h2 mark {
+  color: #88ffed;
+}
