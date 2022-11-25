@@ -1,4 +1,3 @@
-import { eventWrapper } from "@testing-library/user-event/dist/utils";
 import React, { useEffect, useState } from "react";
 import Slide from "./Slide";
 

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-carousel-oceanio/static/css/main.72843a08.css",
+    "main.js": "/react-carousel-oceanio/static/js/main.9ca65c2b.js",
+    "index.html": "/react-carousel-oceanio/index.html",
+    "main.72843a08.css.map": "/react-carousel-oceanio/static/css/main.72843a08.css.map",
+    "main.9ca65c2b.js.map": "/react-carousel-oceanio/static/js/main.9ca65c2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72843a08.css",
+    "static/js/main.9ca65c2b.js"
+  ]
+}
